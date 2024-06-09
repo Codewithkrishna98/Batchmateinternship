@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.div1{
+    /* padding: 20px; */
+    transform:  rotate(-10deg)  ;
+    
+    z-index: 1;
+}
+
+.div2{
+    transform: rotate(-10deg);
+    z-index: -1;
+    margin-left: -30px;
+    margin-top: 20px;
+
+    }
+    
+.span1{
+    /* border: none;
+    outline: none;
+    border-radius: 50%;
+    /* background-color: rgb(197, 100, 100); */
+    /* box-shadow:  20px  50px 30px  20px rgb(224, 92, 92); */ 
+    text-shadow: 2px 10px  70px  rgba(234, 56, 56, 0.985);
+
+}
+.div3{
+    transform: rotate(-10deg);
+    z-index: -2;
+    margin-top: 40px;
+    margin-left: -50px;
+}
+
+  
+/* .firstdiv{
+    border-radius: 0px 100px 100px 0;
+     background-image: linear-gradient( to right, white,rgb(221, 61, 61));
+}
+.divsecond{
+    border-radius: 100px 0 0 100px;
+    z-index: -1;
+    background-image: linear-gradient( to left, white,rgb(221, 61, 61));
+} */
+ .circle{
+    border: 1px solid black;
+ }
+ .heading2{
+    font-family: Poppins;
+    font-weight: 700;
+    margin-top: 4px;
+ }
+ 
+ .typewriter{
+    margin-left: 38px;
+ }
+ .spannav{
+    display: flex;
+    gap: 20px;
+    font-family: Poppins;
+    font-size: 20px;
+ }
